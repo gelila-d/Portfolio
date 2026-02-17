@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
                         <a href="#home" className="text-xl font-bold text-purple-200">
-                            Gelila<span className="text-purple-600">.Dev</span>
+                            Gelila<span className="text-purple-600"></span>
                         </a>
                     </div>
 
