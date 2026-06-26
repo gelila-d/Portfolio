@@ -1,4 +1,4 @@
-import { Mail, Github, Phone } from 'lucide-react';
+import { Mail, Github } from 'lucide-react';
 
 const Contact = () => {
     return (
@@ -40,17 +40,6 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-6 p-4 rounded-xl bg-slate-900/50 border border-purple-900/30 hover:border-purple-600/50 transition-colors group">
-                            <div className="p-4 bg-purple-900/20 rounded-full text-purple-400 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300">
-                                <Phone size={24} />
-                            </div>
-                            <div>
-                                <h3 className="font-semibold text-slate-200 text-lg">Phone</h3>
-                                <a href="tel:+251914968856" className="text-slate-400 hover:text-purple-300 transition-colors">
-                                    +251-914968856
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
